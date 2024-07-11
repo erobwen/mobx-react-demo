@@ -1,0 +1,54 @@
+{
+  "name": "project-potato-frontend",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/project-potato-frontend.js",
+      "require": "./dist/project-potato-frontend.umd.csj"
+    }
+  },
+  "main": "./dist/project-potato-frontend.umd.csj",
+  "module": "./dist/project-potato-frontend.js",
+  "scripts": {
+    "build": "vite build",
+    "buildwatch": "vite build --watch",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "start": "vite --debug",
+    "dev": "vite --debug"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.8.4",
+    "@mui/x-data-grid": "^6.16.3",
+    "@swc/plugin-emotion": "^2.5.92",
+    "@theme-ui/core": "^0.16.1",
+    "axios": "^1.5.0",
+    "mobx": "^6.9.1",
+    "mobx-react": "^9.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.23.2",
+    "@mui/x-data-grid": "^6.16.3",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "express": "^4.18.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@mui/icons-material": "^5.14.15",
+    "js-cookie": "^3.0.5",
+    "react-router-dom": "^6.18.0",
+    "react-syntax-highlighter": "^15.5.0"
+  }
+}
