@@ -15,8 +15,8 @@ class LoginFormStore extends Store {
     const username = localStorage.getItem("username");
 
     this.data = {
-      username: username ? username : "",
-      password: ""
+      username: username ? username : "admin",
+      password: "admin"
       // password: "P@ssw0rd123",
     }
     this.successMessage = "";
