@@ -18,6 +18,10 @@ Do this to run in dev mode.
 
 (Note: When starting the app, the console ends with just some vite update, and seems stalled. But the url was printed out earlier on the console, and the app is working.)
 
+# Screenshot
+
+![Alt text](/screenshot.png?raw=true "Screenshot")
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
