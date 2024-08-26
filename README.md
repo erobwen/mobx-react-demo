@@ -4,9 +4,21 @@ Robert Renbris
 
 # About
 
-This MobX/React/Vite demo was made to demonstrate lean but powerful state management with MobX. There are various examples of how to use state with MobX and React, with code for each example. There are a number of original helper-classes and hooks that make React integration particularly lean and efficient.
+This MobX/React/Vite demo was made to demonstrate lean but powerful state management with MobX. There are various ways of using MobX and React together presented out there, and this represents my unique take on it. 
 
-It also showcases a standard authentication and admin interface. 
+I have provided a number of convenient helper-classes and hooks that makes the integration really smooth. Main features are: 
+
+* useObservable hook for quickly introducing MobX governed state in your React component. 
+
+* Store class that wraps MobX features in a convenient package. This base class for your state is well thought out and features the very convenient life cycle functions:
+
+1. useHooks()
+2. onCreated()
+3. onDispose()
+4. updateConstructorArguments()
+
+Note: Override constructor to set up the store first time. There are a number of pages that demonstrate the use of these helpers, and it also showcases a standard authentication and admin interface built with them.
+
 
 # Running
 
