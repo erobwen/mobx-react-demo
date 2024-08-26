@@ -10,7 +10,7 @@ I have provided a number of convenient helper-classes and hooks that makes the i
 
 * useObservable hook for quickly introducing MobX governed state in your React component. 
 
-* Store class that wraps MobX features in a convenient package. This base class for your state is well thought out and features the very convenient life cycle functions:
+* useStore hook and a Store base class that wraps MobX features in a convenient package. This base class for your state is well thought out and features the very convenient life cycle functions:
 
 1. useHooks()
 2. onCreated()
